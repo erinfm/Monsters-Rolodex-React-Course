@@ -5,6 +5,7 @@
   border: 1px solid grey;
   border-radius: 5px;
   padding: 25px;
+  width: 180px;
   cursor: pointer;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
@@ -14,4 +15,13 @@
 
 .card-container:hover {
   transform: scale(1.05);
+}
+
+.card-container h1 {
+  font-size: 1.75rem;
+}
+
+.card-container img {
+  width: 180px;
+  height: 180px;
 }
